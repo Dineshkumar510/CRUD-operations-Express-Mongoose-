@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>New Product</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link href="css/style.css" rel="stylesheet">-->
+    </head>
+    <body>
+    <h1>Add the New Product</h1>
+    <form action="/products" method="POST" autocomplete="off">
+    <label for="name">Product Name: </label>
+    <input type="text" name="name" id = "name" placeholder="Product Name" required><br><br>
+    <label for="price">Price $ : </label> 
+     <input type="number" name="price" id = "price" placeholder="enter price" required><br><br>
+     <label for="category">Category: </label> 
+     <select name="category" id="category" required>
+        <option value=""></option>
+         <% for(let category of categories) { %>
+        <option value="<%=category%>"><%=category%></option> 
+         <% } %>
+     </select> <br><br>
+     <button>Submit</button>  
+    </form><br>
+    <a href="/">Home</a><br><br>
+    <a href="/products">Back to all Products</a>
+    </body>
+</html>
