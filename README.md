@@ -1,6 +1,8 @@
 # CRUD-operations-Express-Mongoose-
 
-This is the Sample CURD operations website which uses following technologies Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the factor standard server framework for Node.js.
+This is the Sample CURD operations website which uses following technologies:
+
+Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the factor standard server framework for Node.js.
 
 Mongoose is an object data modeling (ODM) library that provides a rigorous modeling environment for your data, enforcing structure as needed while still maintaining the flexibility that makes MongoDB powerful.
 
